@@ -65,11 +65,6 @@ while True:
     else:
         print("Nieprawidłowa akcja! Dostępne: saldo, zakup, sprzedaż, stop")
 
-# print("***Podsumowanie***")
-# print(logs)
-# print(warehouse)
-# print("***Koniec podsumowania***")
-
 if final_action[0] == "saldo":
     balance_diff = int(final_action[1])
     comment = final_action[2]
